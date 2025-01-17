@@ -9,6 +9,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .container {
   width: 1166px;
 }
@@ -104,11 +110,20 @@ li {
   cursor: pointer;
   display: flex;
   border-radius: 4px;
-  margin-bottom: 0 auto;
+  margin: 0 auto;
+  max-width: 169px;
 }
 .section-btn:hover,
 .section-btn:focus {
   background-color: #404bbf;
+}
+.main-section-list {
+  display: flex;
+  gap: 24px;
+}
+.main-list-info {
+  display: flex;
+  justify-content: center;
 }
 .main-list {
   color: #2e2f42;
@@ -118,6 +133,8 @@ li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-top: 120px;
+  margin-bottom: 8px;
 }
 .main-list-text {
   color: #434455;
@@ -126,9 +143,15 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  max-width: 264px;
+  margin-bottom: 120px;
 }
 .photo-section {
   background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .team {
   /* Header 2 */
@@ -141,7 +164,41 @@ li {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
+  display: flex;
+  margin: 232px auto 120px;
+  gap: 24px;
+}
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-list {
+  display: flex;
+  margin: 232px auto 168px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-list-portfolio {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.main-list-text-portfolio {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .team-items {
   color: #2e2f42;
@@ -211,4 +268,19 @@ li {
   align-items: flex-start;
   gap: 10px;
   justify-content: flex-end;
+}
+.footer-logo {
+  margin: 100px auto 16px;
+  display: flex;
+}
+.footer-text {
+  max-width: 264px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
