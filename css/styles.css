@@ -152,7 +152,7 @@ body {
   justify-content: center;
   padding: 120px 0;
 }
-.article-second-section {
+.visually-hidden {
   visibility: hidden;
 }
 .main-list {
