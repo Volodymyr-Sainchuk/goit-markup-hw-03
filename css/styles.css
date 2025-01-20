@@ -172,7 +172,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  margin-top: 120px;
   margin-bottom: 8px;
 }
 .main-list-text {
@@ -183,7 +182,6 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   max-width: 264px;
-  margin-bottom: 120px;
 }
 .photo-section {
   background-color: #f4f4fd;
@@ -241,7 +239,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .main-list-text-portfolio {
@@ -331,7 +328,6 @@ body {
   padding: 24px 0;
 }
 .footer-logo {
-  margin: 100px auto 16px;
   display: flex;
   display: inline-block;
 }
